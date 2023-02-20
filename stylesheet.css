@@ -5,7 +5,7 @@ html {
 }
 body {
   color: #383e45;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 a {
   text-decoration: none;
@@ -29,6 +29,7 @@ li {
 .content-title {
   font-size: 1rem;
   margin: 10px 0;
+  font-family:'sans-serif';
 }
 
 .wrapper {
@@ -56,7 +57,7 @@ li {
   margin-left: 30px;
 }
 #header li a {
-  color: #24292e;
+  color: #4F5956;
 }
 #header li a:hover {
   opacity: 0.7;
@@ -83,9 +84,9 @@ Mainvisual
 About
 -------------------------------------------*/
 body {
-  background-color: #efeded;
-  color: #0d0d0d;
-  font-family: 'Lato', serif;
+  background-color: #f2f0f0;
+  color: #4F5956;
+  font-family: 'sans-serif', serif;
 }
 section title {
   text-align: center;
@@ -101,9 +102,15 @@ section title {
   border-radius: 50%;
   margin-right: 30px;
 }
-.sample1 text {
-  text-align: left;
+.aboutme{
   text-align: center;
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
+.sample1-text {
+  text-align: center;
+  font-size: 0.75rem;
+  
 }
 .sample2 {
   max-width: 1000px;
@@ -157,18 +164,19 @@ section title {
 }
 
 /*-------------------------------------------
-favorite
+memories
 -------------------------------------------*/
 #favorite {
   max-width: 980px;
   padding: 100px 16px 50px 16px;
   margin: -50px auto 10px auto;
+  margin-bottom: 100px;
 }
 #favorite .text {
   text-align: center;
-  font-family: 'Lato';
   font-style: normal;
-  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 #favorite .grid {
   display: grid;
@@ -190,8 +198,8 @@ favorite
   margin-bottom: 20px;
 }
 #favorite .grid .item-text {
-  font-weight: bold;
   margin-bottom: 20px;
+  font-size: 0.75rem;
 }
 #favorite .grid .item-date {
   font-size: 0.75rem;
@@ -210,6 +218,62 @@ SNS
     width: 32%;
   }
 
+  .flowbtn18{
+    font-family:'Lato',sans-serif;	
+    display:inline-block;
+    position:relative;
+    width:90%;
+    height:50px;
+    font-size:20px;
+    border-radius:5px;
+    background-color:#444;
+    color:#fff!important;
+    text-decoration:none;
+    margin-top: 30px;
+    }
+    .flowbtn18 i{
+    position:relative;
+    bottom:5px;
+    }
+    .flowbtn18:hover{
+    text-decoration:none;
+    }
+    .flowbtn18 div{
+    font-size:15px;	
+    position:relative;
+    bottom:-16px;
+    }
+   
+    /* Instagramマウスホバー時 */
+    .flowbtn18.insta_btn2:hover{
+    background:-webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background:linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;		
+    }
+    /* Facebookマウスホバー時 */
+    .flowbtn18.fl_fb2:hover{
+    background:-webkit-linear-gradient(top, #5c80c6 0%, #34528c 74%);	
+    background:linear-gradient(to bottom, #5c80c6 0%, #34528c 74%);
+    }
+    
+    /* ulタグの内側余白を０にする */
+    ul.snsbtniti2{
+    padding:0!important;
+    }
+    /* アイコンボタンの位置調整 */
+    .snsbtniti2{
+    display:flex;
+    flex-flow:row wrap;
+    }
+    /* アイコンボタン同士の余白調整 */
+    .snsbtniti2 li{
+    flex:0 0 48%;
+    text-align:center!important;
+    }
+
+    .message {
+      margin-top: 100px;
+      text-align: center;
+    }
 /*-------------------------------------------
 footer
 -------------------------------------------*/
